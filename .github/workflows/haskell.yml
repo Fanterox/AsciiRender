@@ -22,5 +22,5 @@ jobs:
       run: make Render
     - uses: actions/upload-artifact@v2
       with:
-        name: Render-build-$GITHUB_ACTION
+        name: render
         path: Render
