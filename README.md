@@ -20,6 +20,8 @@ If you're on Windows, you'll probably want the linux subsystem installed, as to 
 
 2. Then type `make Render`
 
+If you get an error for `Failed to load interface for ‘Data.List.Split’`, Run `cabal install --lib split` then compile again
+
 
 ### Getting ready
 
