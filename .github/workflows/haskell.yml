@@ -16,5 +16,7 @@ jobs:
     - uses: actions/setup-haskell@v1
       with:
         ghc-version: '8.0.2'
+    - name: Cabal install split
+      run: cabal install split
     - name: Make
       run: make Render
