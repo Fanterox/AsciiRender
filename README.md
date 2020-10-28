@@ -2,19 +2,21 @@
 
 ### Prerequisites
 
-You are going to need to have Haskel installed, this code has been made in Haskell version 8.0.2.
+You're going to need Haskell installed. This code has been made in Haskell version 8.0.2.
 
-Get Haskell here: http://www.haskell.org/ghc/
+Get Haskell here: http://www.haskell.org/ghc/ 
 
-If you're on windows, you're going to most likely want to have a linux subsystem installed, as to use the linux terminal.
+If you're already on linux with `apt`, you can install it with `sudo apt install haskell-platform` (Please do note that this is 1GB! yes its absurd we know)
+
+If you're on Windows, you'll probably want the linux subsystem installed, as to use the linux terminal, or use a virtual machine.
 
 ## Instructions
 
 ### How to compile:
 
-You will need to navigate in your prefered terminal to the folder where the rest of the folders are located, the one where you will find the Makefile
+1. Go to your preferred folder for cloning repositorys, `git clone https://github.com/fanterox/asciirender`, then `cd ascii
 
-You will need to type in the terminal "make Render"
+2. Then type `make Render`
 
 
 ### Getting ready
@@ -25,15 +27,17 @@ The .obj files will need to be located in the Models folder.
 
 ### Running the Render
 
-In order to run the program you need to type "./Render" while in the main folder.
+In order to run the program you need to type `./Render` while in the main folder.
 
-You will be prompted to input a filename, this will be the name of the file, withought its .obj extension
+If you get `./Render: Permission denied`, you must type in `chmod +x ./Render`, then you may execute it.
+
+You will be prompted to input a filename. This will be the name of the file in the Models folder, without the `.obj` extension
 
 ### How to stop the program
 
-I have'nt made a more optimal way to stop the execution of the code, so for now if you want to stop the program you will need to press "ctrl + z". 
+I haven't made a more optimal way to stop the execution of the code, so for now if you want to stop the program you will need to press "ctrl + z". 
 
 ### Considerations
 
-The code is really still in its early fases, so there are alot of things yet to be propperly implemented, ill try to continue working on it, but for the most part, it may not really get updated often.
-So if you want to work on this code feel completely free to do so.
+This project is still in its early stages, so there are lots of things yet to be implemented. I'll try to continue working on it, but for the most part, it may not get updated often.
+So if you want to contribute to this project, feel completely free to do so.
