@@ -1,5 +1,7 @@
 # AsciiRender!
 
+![Haskell CI](https://github.com/flleeppyy/AsciiRender/workflows/Haskell%20CI/badge.svg)
+
 ### Prerequisites
 
 You're going to need Haskell installed. This code has been made in Haskell version 8.0.2.
