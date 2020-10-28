@@ -20,3 +20,7 @@ jobs:
       run: cabal install --lib split
     - name: Make
       run: make Render
+    - uses: actions/upload-artifact@v2
+      with:
+        name: Upload artifact
+        path: Render
